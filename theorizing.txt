@@ -1,0 +1,5 @@
+lstm-buyrate potential inputs:
+
+large context (ex. 30 - 100x the window) stats... price move, volatility, etc.
+
+volatility

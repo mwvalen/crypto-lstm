@@ -1,0 +1,32 @@
+2 min timeframe, 1000 lookbacks, 10 candle windows, 2 candle result, start time 1543174050000, 20 epochs:
+loss: 0.07640776710539329
+notes: always predicts opposite price move of last candle's diff roughly in proportion
+
+2 min timeframe, 1000 lookbacks, 15 candle windows, 2 candle result, start time 1543174050000, 20 epochs:
+loss: 0.07435020123209272
+
+2 min timeframe, 1000 lookbacks, 15 candle windows, 5 candle result, start time 1543207937000, 
+20 epochs, mae, linear, recurrent activation-hard sigmoid:
+loss: 0.08491798771209404
+notes: very little deviation, all negative predictions
+
+
+2 min timeframe, 1000 lookbacks, 15 candle windows, 5 candle result, start time 1543207937000,
+20 epochs, mae, tanh, recurrent activation-relu:
+loss: 0.08528889850026271
+notes:
+
+5 min timeframe, 1000 lookbacks, 15 candle windows, 5 candle result, start time 1543207937000,
+20 epochs, mae, linear, recurrent activation-relu:
+loss: 92
+notes: weird error prediction exponentially went up until 17000
+
+
+
+
+
+
+
+
+
+
